@@ -2,11 +2,12 @@
 <html>
 <head>
     <!--Links to style sheet-->
-    <link rel="style" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <!--Sets webpage title-->
     <title> JavaScript eventHandler </title> 
 </head>
 <body id="Body">
+    <h1>test</h1>
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
 
