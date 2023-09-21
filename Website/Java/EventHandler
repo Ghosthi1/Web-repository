@@ -1,0 +1,5 @@
+<script>
+function onClick() {
+   document.getElementById("Body").style.backgroundColor = "red"
+}
+</script>

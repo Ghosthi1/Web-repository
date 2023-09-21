@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="style" href="CSS/style.css">
+    <title> JavaScript eventHandler </title> 
+</head>
+<body id="Body">
+    <h1></h1>
+    <button id="event" onclick="onClick()"> Click Me!! </button>
+
+
+</body>
+</html>
