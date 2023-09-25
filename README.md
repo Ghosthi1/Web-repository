@@ -1,5 +1,5 @@
-# Event-Listner
-Creating an event listner in a webpage 
+# web-repository
+    Creating a website with examples of diffrent HTML,CSS,Javascript elements 
 
 # Roadmap
 
@@ -8,4 +8,7 @@ Creating an event listner in a webpage
 
 ## Create an event handler for 'Click'
     Use event handler click to change Style of the element 
+
+## Implement cookiebanner
+    repurpose code to fit into website 
 
