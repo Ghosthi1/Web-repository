@@ -9,7 +9,7 @@
 <body id="Body">
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
-
+    <script src="EventHandler"></script>
 
 </body>
 </html>
