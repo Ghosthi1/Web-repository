@@ -2,7 +2,7 @@
 <html>
 <head>
     <!--Links to style sheet-->
-    <link rel="style" href="CSS/style.css">
+    <link rel="stylesheet"  type="text/css" href="style.css">
     <!--Sets webpage title-->
     <title> JavaScript eventHandler </title> 
 </head>
