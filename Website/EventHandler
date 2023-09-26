@@ -1,6 +1,6 @@
 
 function onClick() {
-   switch (object.style.backgroundColor){
+   switch ( new object.style.backgroundColor){
       case backgroundColor: rgb(127, 255, 212);
          document.getElementById("Body").style.backgroundColor = "red"
       break;     
