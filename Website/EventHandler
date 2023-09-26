@@ -1,8 +1,11 @@
 
 function onClick() {
+   //gets the current color of body
    var bodyElement = document.getElementById("Body");
+   //Assigns the body color 
    var currentColor = bodyElement.style.backgroundColor;
 
+   //Checks the current color and changes it appropratly 
    switch ( currentColor ){
       case "":
       case "rgb(127, 255, 212)":
@@ -11,6 +14,7 @@ function onClick() {
       case "red":
          bodyElement.style.backgroundColor =  "rgb(127, 255, 212)";
       break;
+      //Runs this if there is no color applied 
       default:
          bodyElement.style.backgroundColor = "red";
       break;
