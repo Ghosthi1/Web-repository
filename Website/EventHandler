@@ -2,13 +2,17 @@
 function onClick() {
    var bodyElement = document.getElementById("Body");
    var currentColor = bodyElement.style.backgroundColor;
-   
+
    switch ( currentColor ){
-      case rgb(127, 255, 212):
-         document.getElementById("Body").style.backgroundColor = "red"
+      case "":
+      case "rgb(127, 255, 212)":
+         bodyElement.style.backgroundColor = "red"
       break;     
       case "red":
-          document.getElementById("Body").style.backgroundColor =  rgb(127, 255, 212);
+         bodyElement.style.backgroundColor =  "rgb(127, 255, 212)";
+      break;
+      default:
+         bodyElement.style.backgroundColor = "red";
       break;
    }
 }
