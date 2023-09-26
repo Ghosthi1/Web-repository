@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script scr="Cookies()"></script>
+    <script src="EventHandler"></script>
+    
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
     <!--Sets webpage title-->
@@ -10,8 +11,7 @@
 <body id="Body">
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
-    <script src="EventHandler"></script>
-    
+
 </body>
 
 </html>

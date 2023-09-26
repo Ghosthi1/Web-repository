@@ -1,7 +1,5 @@
 
 function onClick() {
-   
-
    //gets the current color of body
    var bodyElement = document.getElementById("Body");
    //Assigns the body color 
@@ -21,8 +19,8 @@ function onClick() {
          bodyElement.style.backgroundColor = "red";
       break;
    }
-
-   function Cookies(){
+//self calling
+ (function(){
       document.body.style.height = '200pt';
 
       var script = document.createElement('script');
@@ -41,6 +39,6 @@ function onClick() {
       // console.log( initCookieConsent );
       }
       console.log('ready');
-   }
+   })();
       
 }
