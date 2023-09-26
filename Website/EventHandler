@@ -20,7 +20,6 @@ function onClick() {
       break;
    }
 
-   
    document.body.style.height = '200pt';
 
    var script = document.createElement('script');
@@ -39,4 +38,5 @@ function onClick() {
    // console.log( initCookieConsent );
    }
    console.log('ready');
+   
 }
