@@ -1,4 +1,11 @@
 
 function onClick() {
-   document.getElementById("Body").style.backgroundColor = "red"
+   switch (object.style.background-color){
+      case background-color: rgb(127, 255, 212);
+         document.getElementById("Body").style.backgroundColor = "red"
+      break;     
+      case background-color: "red";
+          document.getElementById("Body").style.backgroundColor =  rgb(127, 255, 212);
+      break;
+   }
 }
