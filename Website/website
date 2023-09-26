@@ -10,7 +10,7 @@
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
     <script src="EventHandler"></script>
-
+    a
 </body>
 
 </html>
