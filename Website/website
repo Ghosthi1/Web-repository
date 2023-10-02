@@ -2,6 +2,8 @@
 <html>
 <head>
     <script src="EventHandler"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"> </script> 
+
     
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
@@ -14,7 +16,6 @@
 
 </body>
 
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"> </script> 
         <script> 
             $(document).ready(function(){ 
                 $("button").click(function(){ 
