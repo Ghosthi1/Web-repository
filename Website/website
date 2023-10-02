@@ -14,29 +14,31 @@
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
 
+    <script> 
+        $(document).ready(function(){ 
+            $("button").click(function(){ 
+                $("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
+            }); 
+        }); 
+    </script> 
+    <style> 
+        body { 
+            text-align: center; 
+        } 
+        #divContent { 
+            font-size: 40px; 
+            font-weight: bold; 
+            color: green; 
+        } 
+    </style> 
+
+
+    <div id="divContent"> 
+        Default Content
+    </div> 
+    
 </body>
 
-        <script> 
-            $(document).ready(function(){ 
-                $("button").click(function(){ 
-                    $("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
-                }); 
-            }); 
-        </script> 
-        <style> 
-            body { 
-                text-align: center; 
-            } 
-            #divContent { 
-                font-size: 40px; 
-                font-weight: bold; 
-                color: green; 
-            } 
-        </style> 
-
-
-        <div id="divContent"> 
-            Default Content
-        </div> 
+      
 
 </html>
