@@ -15,10 +15,10 @@
     <button id="event" onclick="onClick()"> Click Me!! </button>
 
     <script> 
-        (function(){ 
+        $(function(){ 
             console.log("Button clicked");
-            ("event").click(function(){ 
-                ("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
+           $ ("event").click(function(){ 
+               $ ("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
             }); 
         }); 
     </script> 
