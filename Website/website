@@ -16,7 +16,7 @@
 
     <script> 
         $(document).ready(function(){ 
-            $("button").click(function(){ 
+            $("event").click(function(){ 
                 $("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
             }); 
         }); 
@@ -36,7 +36,7 @@
     <div id="divContent"> 
         Default Content
     </div> 
-    
+
 </body>
 
       
