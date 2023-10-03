@@ -9,7 +9,7 @@
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
     <!--Sets webpage title-->
-    <title> JavaScript eventHandler </title> 
+    <title> Test page </title> 
 </head>
 
 <body id="Body">
@@ -19,10 +19,10 @@
     <button id="button" onclick="load()"> Click Me too!! </button>
 
     <script> 
-        $(document).ready(function load(){
+        jQuery(document).ready(function load(){
             console.log("Button clicked");
-            $("button").click(function load(){ 
-               $("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
+            jQuery("button").click(function load(){ 
+               jQuery("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
             }); 
         }); 
     </script> 
