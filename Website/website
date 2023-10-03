@@ -8,9 +8,8 @@
     <!--Sets webpage title-->
     <title> Test page </title> 
 
-        <!--Links to JQuery-->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
-
+    <!--Links to JQuery-->
+    <script src="jquery-3.6.4.min.js"></script>
         <script> 
             $(document).ready(function (){
                 console.log("Button clicked");
