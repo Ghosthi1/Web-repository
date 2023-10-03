@@ -19,16 +19,7 @@
                 }); 
             }); 
         </script> 
-        <style> 
-            body { 
-                text-align: center; 
-            } 
-            #divContent { 
-                font-size: 40px; 
-                font-weight: bold; 
-                color: rgb(7, 16, 7); 
-            } 
-        </style> 
+
  
     
 </head>
@@ -39,8 +30,17 @@
     <button id="event" onclick="onClick()"> Click Me!! </button>
     <button id="button" > Click Me too!! </button>
 
-       
-    
+    <style> 
+        body { 
+            text-align: center; 
+        } 
+        #divContent { 
+            font-size: 40px; 
+            font-weight: bold; 
+            color: green; 
+        } 
+    </style> 
+
     <div id="divContent"> 
         Default Content
     </div> 
