@@ -17,12 +17,12 @@
     
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
-    <button id="button"> Click Me too!! </button>
+    <button id="button" onclick="load()"> Click Me too!! </button>
 
     <script> 
-        $(document).ready(function(){
+        $(document).ready(function load(){
             console.log("Button clicked");
-            $("button").click(function(){ 
+            $("button").click(function load(){ 
                $("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
             }); 
         }); 
