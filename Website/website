@@ -2,9 +2,7 @@
 <html>
 <head>
     <script src="EventHandler"></script>
-
-    <!--Links to JQuery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>    
+  
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
     <!--Sets webpage title-->
@@ -16,6 +14,9 @@
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
     <button id="button" > Click Me too!! </button>
+
+    <!--Links to JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
 
     <script> 
         $(document).ready(function (){
