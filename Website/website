@@ -39,6 +39,34 @@
         // Log the selected "item" elements to the console
         console.log('items:', items);
 
+        items.forEach((el) => {
+            // Extract the title, description, and guid from each "item" element
+            let title = el.querySelector('title').textContent;
+            let description = el.querySelector('description').textContent;
+            let guid = el.querySelector('guid').textContent;
+
+            // Log the extracted data to the console
+            console.log('title:', title);
+            console.log('description:', description);
+            console.log('guid:', guid);
+
+            // Create a new <div> element and append it to the document body
+            let div = document.createElement('div');
+            document.body.appendChild(div);
+
+            // Set the innerHTML of the <div> with the extracted data
+            div.innerHTML = `
+                <h2>${title}</h2>
+                <p>${description}</p>
+            `;
+
+            // If a guid is available, add a link to the <div>
+            if (guid) {
+                div.innerHTML += `<a href='${guid}'>LINK</a>`;
+            }
+        });
+
+
    fetchAndLogXML();
     </script>
 
