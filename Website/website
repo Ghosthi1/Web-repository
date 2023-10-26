@@ -18,7 +18,7 @@
                 }); 
             }); 
         
-
+    async function fetchData() {
         // Fetch the XML content from the Fox News RSS feed URL
         let prom = await fetch('https://moxie.foxnews.com/google-publisher/latest.xml');
         let text = await prom.text();
@@ -65,9 +65,10 @@
                 div.innerHTML += `<a href='${guid}'>LINK</a>`;
             }
         });
+    }
 
-
-   fetchAndLogXML();
+    fetchData();
+    fetchAndLogXML();
     </script>
 
  
