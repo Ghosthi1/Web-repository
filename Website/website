@@ -19,18 +19,25 @@
             }); 
         
 
-    async function fetchAndLogXML() {
+        // Fetch the XML content from the Fox News RSS feed URL
         let prom = await fetch('https://moxie.foxnews.com/google-publisher/latest.xml');
         let text = await prom.text();
-    console.log(text.substring(0, 100));
+
+        // Log the first 100 characters of the fetched XML content to the console
+        console.log(text.substring(0, 100));
+
+        // Parse the XML using the DOMParser
         let parser = new DOMParser();
         let xmlDoc = parser.parseFromString(text, "text/xml");
 
-    console.log( xmlDoc );
+        // Log the parsed XML document to the console
+        console.log(xmlDoc);
 
+        // Select all the "item" elements from the parsed XML document
         const items = xmlDoc.querySelectorAll("item");
-    console.log('items:', items );
-    }
+
+        // Log the selected "item" elements to the console
+        console.log('items:', items);
 
    fetchAndLogXML();
     </script>
