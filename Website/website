@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-  
+<head>  
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
+    <link rel="EventHandler" type="text/js" href="EventHandler">
 
     <!--Sets webpage title-->
     <title> Web Reposetory </title> 
@@ -83,10 +83,8 @@
     <br>
     <!--Makes buttons-->
     <div id="Buttons">
-
     <button id="ChangeColor" onclick="onClick()"> Change colour </button>
     <button id="Text" > Lots of text </button>
-
     </div>
 
     <div id = "Lots of text">
