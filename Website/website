@@ -77,26 +77,18 @@
 
 <body id="Body">
 
-    <div id="divContent"> 
+    <!--Title at top-->
+    <div id="Title"> 
         Web Reposetory 
     </div> 
+    <!-- MAKING GAP-->
+    <br>
     
-    <div id="Buttons">
     <!--Makes a button-->
+    <div id="Buttons">
     <button id="event" onclick="onClick()"> Click Me!! </button>
     <button id="button" > Click Me too!! </button>
     </div>
-
-    <style> 
-        body { 
-            text-align: center; 
-        } 
-        #divContent { 
-            font-size: 40px; 
-            font-weight: bold; 
-            color: rgb(11, 13, 11); 
-        } 
-    </style> 
 
 </body> 
 

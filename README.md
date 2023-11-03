@@ -15,6 +15,9 @@
 
 # Roadmap
 
+## Move css to style sheet
+    move css to make main code easier to read 
+
 ## Make more user freindly
     easier to use and looks nicer 
 
