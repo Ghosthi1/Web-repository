@@ -6,7 +6,7 @@
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
     <!--Sets webpage title-->
-    <title> Test page </title> 
+    <title> Web Reposetory </title> 
 
     <!--Links to JQuery-->
     <script src="jquery-3.6.4.min.js"></script>
@@ -76,6 +76,9 @@
 </head>
 
 <body id="Body">
+    <div id="divContent"> 
+        Web Reposetory 
+    </div> 
     
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
@@ -91,11 +94,6 @@
             color: rgb(11, 13, 11); 
         } 
     </style> 
-
-    <div id="divContent"> 
-        Default Content
-    </div> 
-
 
 </body> 
 
