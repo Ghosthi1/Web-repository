@@ -1,19 +1,37 @@
 # web-repository
-    Creating a website with examples of diffrent HTML,CSS,Javascript elements 
+    Creating a website with examples of diffrent HTML,CSS,Javascript elements
+
+## Projects implemented 
+    Rss Feed
+    Jquery
+    EventHandler 
+    cookie banner
+
+# Project status 
+    activley working 
+
+# Usage 
+    Holds examples of implemented projects for use in future
 
 # Roadmap
 
-## Make template website
-    With basic content <h>. <p> ...etc(Done)
+## Make more user freindly
+    easier to use and looks nicer 
 
-## Create an event handler for 'Click'
-    Use event handler click to change Style of the element (Done)
+## Have RSS feed link to useful site 
+    like coding site 
 
-## Implement cookiebanner
-    repurpose code to fit into website 
+## Clean up botton reactions 
+    make cleaner, change data on press 
 
-## Implement Text change when button press 
-(done
+## make cookie banner work better 
+    make appear and dissipear correctly 
 
-)
+## Move more events into the event handler 
+    Move Javascript where possible to EventHandler 
+
+# License
+    GNU GENERAL PUBLIC LICENSE
+
+
     
