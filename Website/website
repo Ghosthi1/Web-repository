@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="EventHandler"></script>
+    <script src="click1Handler"></script>
   
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
@@ -12,8 +12,8 @@
     <script src="jquery-3.6.4.min.js"></script>
         <script> 
             $(document).ready(function (){
-                console.log("Button clicked");
-                $("button").click(function (){ 
+                console.log("Text clicked");
+                $("Text").click(function (){ 
                    $("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
                 }); 
             }); 
@@ -83,11 +83,12 @@
     </div> 
     <!-- MAKING GAP-->
     <br>
-    
-    <!--Makes a button-->
+    <!--Makes buttons-->
     <div id="Buttons">
-    <button id="event" onclick="onClick()"> Click Me!! </button>
-    <button id="button" > Click Me too!! </button>
+
+    <button id="ChangeColor" onclick="onClick()"> Change colour </button>
+    <button id="Text" > Lots of text </button>
+
     </div>
 
 </body> 

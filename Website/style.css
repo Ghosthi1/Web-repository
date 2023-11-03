@@ -1,12 +1,18 @@
 body {
-    background-color: rgb(127, 255, 212);
+    background-color: rgb(94, 95, 95);
     text-align: center; 
 }
 
 #Title {
+    text-shadow: 1cm;
+    text-align: center;
     font-size: 50px; 
     font-weight: bold; 
     text-decoration: underline;
     color: rgb(0, 0, 0);
+}
+
+#Buttons {
+    background-color: aliceblue;
 }
 
