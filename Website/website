@@ -4,6 +4,7 @@
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
     <link rel="EventHandler" type="text/js" href="EventHandler">
+    <script src="EventHandler"></script>
 
     <!--Sets webpage title-->
     <title> Web Reposetory </title> 
