@@ -19,6 +19,10 @@ function onClick() {
          bodyElement.style.backgroundColor = rgb(213, 213, 213);
       break;
    }
+}
+
+
+
 //self calling
  (function(){
       document.body.style.height = '200pt';
@@ -41,4 +45,3 @@ function onClick() {
       console.log('ready');
    })();
       
-}
