@@ -76,13 +76,16 @@
 </head>
 
 <body id="Body">
+
     <div id="divContent"> 
         Web Reposetory 
     </div> 
     
+    <div id="Buttons">
     <!--Makes a button-->
     <button id="event" onclick="onClick()"> Click Me!! </button>
     <button id="button" > Click Me too!! </button>
+    </div>
 
     <style> 
         body { 
