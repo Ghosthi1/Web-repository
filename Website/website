@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>  
-    <!--Links to style sheet-->
+    <!--Links to style sheet and javascript-->
     <link rel="stylesheet"  type="text/css" href="style.css">
     <link rel="EventHandler" type="text/js" href="EventHandler">
     <script src="EventHandler"></script>
