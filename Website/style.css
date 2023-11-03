@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(94, 95, 95);
+    background-color: rgb(213, 213, 213);
     text-align: center; 
 }
 
@@ -13,6 +13,6 @@ body {
 }
 
 #Buttons {
-    background-color: aliceblue;
+    color: black;
 }
 
