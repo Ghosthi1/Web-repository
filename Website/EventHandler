@@ -1,10 +1,7 @@
 
 function onClick() {
-   var button = document.getElementById("ChangeColor");
-   button.addEventListener("click", onClick);
-
    //gets the current color of body
-   var bodyElement = document.getElementById("Body");
+   var bodyElement = document.getElementById("body");
    //Assigns the body color 
    var currentColor = bodyElement.style.backgroundColor;
 
