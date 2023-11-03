@@ -8,15 +8,15 @@ function onClick() {
    //Checks the current color and changes it appropratly 
    switch ( currentColor ){
       case "":
-      case "rgb(127, 255, 212)":
-         bodyElement.style.backgroundColor = "red"
+      case "rgb(213, 213, 213);":
+         bodyElement.style.backgroundColor = rgb(0,0,0)
       break;     
-      case "red":
-         bodyElement.style.backgroundColor =  "rgb(127, 255, 212)";
+      case "rgb(0,0,0)":
+         bodyElement.style.backgroundColor = rgb(213, 213, 213);
       break;
       //Runs this if there is no color applied 
       default:
-         bodyElement.style.backgroundColor = "red";
+         bodyElement.style.backgroundColor = rgb(213, 213, 213);
       break;
    }
 //self calling
