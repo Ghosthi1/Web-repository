@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="click1Handler"></script>
   
     <!--Links to style sheet-->
     <link rel="stylesheet"  type="text/css" href="style.css">
+
     <!--Sets webpage title-->
     <title> Web Reposetory </title> 
 
@@ -14,7 +14,7 @@
             $(document).ready(function (){
                 console.log("Text clicked");
                 $("Text").click(function (){ 
-                   $("#divContent").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
+                   $("Lots of text").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
                 }); 
             }); 
         
@@ -71,8 +71,6 @@
     fetchAndLogXML();
     </script>
 
- 
-    
 </head>
 
 <body id="Body">
@@ -88,6 +86,10 @@
 
     <button id="ChangeColor" onclick="onClick()"> Change colour </button>
     <button id="Text" > Lots of text </button>
+
+    </div>
+
+    <div id = "Lots of text">
 
     </div>
 
