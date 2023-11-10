@@ -1,11 +1,14 @@
 
 function onClick() {
    var bodyElement = document.getElementById("body");
+   var titleElement = document.getElementById("title");
 
    if (bodyElement.classList.contains("dark-mode")) {
       bodyElement.classList.remove("dark-mode");
+      titleElement.style.color = "rgb(0, 0, 0)";
    } else {
       bodyElement.classList.add("dark-mode");
+      titleElement.style.color = "rgb(213, 213, 213)";
    }
 }
 
