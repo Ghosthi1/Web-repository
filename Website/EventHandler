@@ -20,11 +20,7 @@ function onClick() {
          bodyElement.style.color = "black";
       break;
       //Runs this if there is no color applied 
-      default:
-         bodyElement.style.backgroundColor = "rgb(213, 213, 213)";
-         currentColor = bodyElement.style.backgroundColor;
-         bodyElement.style.color = "black";
-      break;
+
    }
 }
 
