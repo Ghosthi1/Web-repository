@@ -2,15 +2,9 @@
     background-color: rgb(213, 213, 213);
     text-align: center; 
 }
-
-.dark-mode .body {
+.dark-mode {
     background-color: rgb(0, 0, 0);
     color: white;
-    text-align: center;  
- }
-
- .dark-mode #Title {
-    color: rgb(250, 247, 247);
  }
 
 #Title {
@@ -20,8 +14,3 @@
     text-decoration: underline;
     color: rgb(0, 0, 0);
 }
-
-
-
-
-
