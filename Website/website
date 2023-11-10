@@ -76,7 +76,7 @@
 <body id="body">
 
     <!--Title at top-->
-    <div id="Title"> 
+    <div id="Title" class="Title"> 
         Web Reposetory 
     </div> 
     <!-- MAKING GAP-->
