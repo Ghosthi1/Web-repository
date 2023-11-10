@@ -2,10 +2,6 @@
     background-color: rgb(213, 213, 213);
     text-align: center; 
 }
-.dark-mode {
-    background-color: rgb(0, 0, 0);
-    color: white;
- }
 
 .Title {
     text-align: center;
@@ -13,3 +9,9 @@
     font-weight: bold; 
     text-decoration: underline;
 }
+
+.dark-mode {
+    background-color: rgb(0, 0, 0);
+    color: white;
+ }
+
