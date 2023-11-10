@@ -1,7 +1,7 @@
 
 function onClick() {
    var bodyElement = document.getElementById("body");
-   var titleElement = document.getElementById("title");
+   var titleElement = document.getElementById("Title");
 
    if (bodyElement.classList.contains("dark-mode")) {
       bodyElement.classList.remove("dark-mode");
