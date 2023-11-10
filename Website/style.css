@@ -9,7 +9,7 @@ body {
     text-decoration: underline;
     color: rgb(0, 0, 0);
 }
-.dark-mode #Title{
+.dark-mode {
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;  
