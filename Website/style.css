@@ -2,12 +2,14 @@
     background-color: rgb(213, 213, 213);
     text-align: center; 
 }
-.dark-mode {
+.dark-mode .Title {
     background-color: rgb(0, 0, 0);
     color: white;
+    text-align: center; 
+    
  }
 
-#Title {
+.Title {
     text-align: center;
     font-size: 50px; 
     font-weight: bold; 
