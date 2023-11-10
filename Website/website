@@ -83,8 +83,8 @@
     <br>
     <!--Makes buttons-->
     <div id="Buttons">
-    <button id="ChangeColor" onclick="onClick()"> Change colour </button>
-    <button id="Text" > Lots of text </button>
+        <button id="ChangeColor" onclick="onClick()"> Change colour </button>
+        <button id="Text" > Lots of text </button>
     </div>
 
     <div id = "Lots of text">
