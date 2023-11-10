@@ -2,21 +2,26 @@
 function onClick() {
    //gets the current color of body
    var bodyElement = document.getElementById("body");
+   //Assigns the body color 
+   var currentColor = bodyElement.style.backgroundColor;
 
    //Checks the current color and changes it appropratly 
    switch ( currentColor ){
       case "":
       case "rgb(213, 213, 213);":
          bodyElement.style.backgroundColor = "rgb(0,0,0)";
+         currentColor = bodyElement.style.backgroundColor;
          bodyElement.style.color = "white";
       break;     
       case "rgb(0,0,0)":
          bodyElement.style.backgroundColor = "rgb(213, 213, 213)";
+         currentColor = bodyElement.style.backgroundColor;
          bodyElement.style.color = "black";
       break;
       //Runs this if there is no color applied 
       default:
          bodyElement.style.backgroundColor = "rgb(213, 213, 213)";
+         currentColor = bodyElement.style.backgroundColor;
          bodyElement.style.color = "black";
       break;
    }
