@@ -1,3 +1,4 @@
+var currentColor = "";
 
 function onClick() {
    //gets the current color of body
