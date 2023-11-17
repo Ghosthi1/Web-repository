@@ -20,6 +20,18 @@
  }
 
  .g-recaptcha {
-      display: flex;
-  justify-content: center; 
+    display: flex;
+    justify-content: center; 
+ }
+
+ .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
+
+ #Lotsoftext {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
  }
