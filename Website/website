@@ -7,6 +7,8 @@
     <script src="EventHandler"></script>
     <!--Links to JQuery-->
     <script src="jquery-3.6.4.min.js"></script>
+    <!--Captcha-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <!--Sets webpage title-->
     <title> Web Reposetory </title> 
@@ -30,6 +32,9 @@
     <div id = "Lotsoftext">
 
     </div>
+    <br>
+
+    <div class="g-recaptcha" data-sitekey="6Ldh8RIpAAAAABB2KvrvqCHVswdO-4GbNKlJqcRP"></div>
 
 </body> 
 

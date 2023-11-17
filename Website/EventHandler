@@ -1,95 +1,94 @@
 //button for change colour
 function changeColour() {
    var bodyElement = document.getElementById("body");
-
+ 
    if (bodyElement.classList.contains("dark-mode")) {
-      bodyElement.classList.remove("dark-mode");
+     bodyElement.classList.remove("dark-mode");
    } else {
-      bodyElement.classList.add("dark-mode");
+     bodyElement.classList.add("dark-mode");
    }
-}
-
-//Cookies
-//self calling
- (function(){
-      document.body.style.height = '200pt';
-
-      var script = document.createElement('script');
-      script.type = 'text/javascript';
-      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js';
-      script.id = 'cookiebanner';
-      script['data-height']   = '20px';
-      script['data-position'] = 'top';
-      script['data-message']  = 'We use cookies!';
-      document.head.appendChild(script); 
-
-      script.onload = function()
-      {
-      console.log('loaded script');
-
-      // console.log( initCookieConsent );
-      }
-      console.log('ready');
-   })();
-
-//button for lots of text 
-function lotsOfText() {
-   $(document).ready(function (){
-       console.log("Text clicked");
-       $("Text").click(function (){ 
-          $("Lotsoftext").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
-       }); 
-   }); 
-
-   async function fetchData() {
-   // Fetch the XML content from the Fox News RSS feed URL
-   let prom = await fetch('https://moxie.foxnews.com/google-publisher/latest.xml');
-   let text = await prom.text();
-
-   // Log the first 100 characters of the fetched XML content to the console
-   console.log(text.substring(0, 100));
-
-   // Parse the XML using the DOMParser
-   let parser = new DOMParser();
-   let xmlDoc = parser.parseFromString(text, "text/xml");
-
-   // Log the parsed XML document to the console
-   console.log(xmlDoc);
-
-   // Select all the "item" elements from the parsed XML document
-   const items = xmlDoc.querySelectorAll("item");
-
-   // Log the selected "item" elements to the console
-   console.log('items:', items);
-
-   items.forEach((el) => {
-      // Extract the title, description, and guid from each "item" element
-      let title = el.querySelector('title').textContent;
-      let description = el.querySelector('description').textContent;
-      let guid = el.querySelector('guid').textContent;
-
-      // Log the extracted data to the console
-      console.log('title:', title);
-      console.log('description:', description);
-      console.log('guid:', guid);
-
-      // Create a new <div> element and append it to the document body
-      let div = document.createElement('div');
-      document.body.appendChild(div);
-
-      // Set the innerHTML of the <div> with the extracted data
-      div.innerHTML = `
-         <h2>${title}</h2>
-         <p>${description}</p>
-      `;
-
-      // If a guid is available, add a link to the <div>
-      if (guid) {
-         div.innerHTML += `<a href='${guid}'>LINK</a>`;
-      }
+ }
+ 
+ //Cookies
+ //self calling
+ (function () {
+   document.body.style.height = '200pt';
+ 
+   var script = document.createElement('script');
+   script.type = 'text/javascript';
+   script.src = 'https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js';
+   script.id = 'cookiebanner';
+   script['data-height'] = '20px';
+   script['data-position'] = 'top';
+   script['data-message'] = 'We use cookies!';
+   document.head.appendChild(script);
+ 
+   script.onload = function () {
+     console.log('loaded script');
+ 
+     // console.log( initCookieConsent );
+   }
+   console.log('ready');
+ })();
+ 
+ //button for lots of text 
+ function lotsOfText() {
+   $(document).ready(function () {
+     console.log("Text clicked");
+     $("Text").click(function () {
+       $("Lotsoftext").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html");
+     });
    });
+ 
+   async function fetchData() {
+     // Fetch the XML content from the Fox News RSS feed URL
+     let prom = await fetch('https://moxie.foxnews.com/google-publisher/latest.xml');
+     let text = await prom.text();
+ 
+     // Log the first 100 characters of the fetched XML content to the console
+     console.log(text.substring(0, 100));
+ 
+     // Parse the XML using the DOMParser
+     let parser = new DOMParser();
+     let xmlDoc = parser.parseFromString(text, "text/xml");
+ 
+     // Log the parsed XML document to the console
+     console.log(xmlDoc);
+ 
+     // Select all the "item" elements from the parsed XML document
+     const items = xmlDoc.querySelectorAll("item");
+ 
+     // Log the selected "item" elements to the console
+     console.log('items:', items);
+ 
+     items.forEach((el) => {
+       // Extract the title, description, and guid from each "item" element
+       let title = el.querySelector('title').textContent;
+       let description = el.querySelector('description').textContent;
+       let guid = el.querySelector('guid').textContent;
+ 
+       // Log the extracted data to the console
+       console.log('title:', title);
+       console.log('description:', description);
+       console.log('guid:', guid);
+ 
+       // Create a new <div> element and append it to the document body
+       let div = document.createElement('div');
+       document.body.appendChild(div);
+ 
+       // Set the innerHTML of the <div> with the extracted data
+       div.innerHTML = `
+          <h2>${title}</h2>
+          <p>${description}</p>
+       `;
+ 
+       // If a guid is available, add a link to the <div>
+       if (guid) {
+         div.innerHTML += `<a href='${guid}'>LINK</a>`;
+       }
+     });
    }
-
+ 
    fetchData();
-}
-      
+ }
+ 
