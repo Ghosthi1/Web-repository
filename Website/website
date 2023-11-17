@@ -5,71 +5,11 @@
     <link rel="stylesheet"  type="text/css" href="style.css">
     <link rel="EventHandler" type="text/js" href="EventHandler">
     <script src="EventHandler"></script>
+    <!--Links to JQuery-->
+    <script src="jquery-3.6.4.min.js"></script>
 
     <!--Sets webpage title-->
     <title> Web Reposetory </title> 
-
-    <!--Links to JQuery-->
-    <script src="jquery-3.6.4.min.js"></script>
-        <script> 
-            $(document).ready(function (){
-                console.log("Text clicked");
-                $("Text").click(function (){ 
-                   $("Lots of text").load("https://f28wp.github.io/material/tasks/Task%2007%20-%20JQuery.html"); 
-                }); 
-            }); 
-        
-    async function fetchData() {
-        // Fetch the XML content from the Fox News RSS feed URL
-        let prom = await fetch('https://moxie.foxnews.com/google-publisher/latest.xml');
-        let text = await prom.text();
-
-        // Log the first 100 characters of the fetched XML content to the console
-        console.log(text.substring(0, 100));
-
-        // Parse the XML using the DOMParser
-        let parser = new DOMParser();
-        let xmlDoc = parser.parseFromString(text, "text/xml");
-
-        // Log the parsed XML document to the console
-        console.log(xmlDoc);
-
-        // Select all the "item" elements from the parsed XML document
-        const items = xmlDoc.querySelectorAll("item");
-
-        // Log the selected "item" elements to the console
-        console.log('items:', items);
-
-        items.forEach((el) => {
-            // Extract the title, description, and guid from each "item" element
-            let title = el.querySelector('title').textContent;
-            let description = el.querySelector('description').textContent;
-            let guid = el.querySelector('guid').textContent;
-
-            // Log the extracted data to the console
-            console.log('title:', title);
-            console.log('description:', description);
-            console.log('guid:', guid);
-
-            // Create a new <div> element and append it to the document body
-            let div = document.createElement('div');
-            document.body.appendChild(div);
-
-            // Set the innerHTML of the <div> with the extracted data
-            div.innerHTML = `
-                <h2>${title}</h2>
-                <p>${description}</p>
-            `;
-
-            // If a guid is available, add a link to the <div>
-            if (guid) {
-                div.innerHTML += `<a href='${guid}'>LINK</a>`;
-            }
-        });
-    }
-
-    fetchData();
-    </script>
 
 </head>
 
@@ -84,10 +24,10 @@
     <!--Makes buttons-->
     <div id="Buttons">
         <button id="ChangeColor" onclick="onClick()"> Change colour </button>
-        <button id="Text" > Lots of text </button>
+        <button id="Text" onclick="lotsOfText()"> Lots of text </button>
     </div>
 
-    <div id = "Lots of text">
+    <div id = "Lotsoftext">
 
     </div>
 
