@@ -23,7 +23,7 @@
     <br>
     <!--Makes buttons-->
     <div id="Buttons">
-        <button id="ChangeColor" onclick="onClick()"> Change colour </button>
+        <button id="ChangeColor" onclick="changeColour()"> Change colour </button>
         <button id="Text" onclick="lotsOfText()"> Lots of text </button>
     </div>
 
