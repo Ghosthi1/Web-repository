@@ -33,6 +33,8 @@
 ## Move more events into the event handler 
     Move Javascript where possible to EventHandler 
 
+##Add a captcha
+
 # License
     GNU GENERAL PUBLIC LICENSE
 
