@@ -28,14 +28,17 @@
         <button id="ChangeColor" onclick="changeColour()"> Change colour </button>
         <button id="Text" onclick="lotsOfText()"> Lots of text </button>
     </div>
-
-    <div id = "Lotsoftext">
-
-    </div>
     <br>
 
     <div class="g-recaptcha" data-sitekey="6Ldh8RIpAAAAABB2KvrvqCHVswdO-4GbNKlJqcRP"></div>
 
 </body> 
+
+<footer>
+    <div id = "Lotsoftext">
+
+    </div>
+
+</footer>
 
 </html>
